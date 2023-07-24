@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        int wiek = mojWiek();
+        System.out.println("Moj wiek to " + wiek);
+    }
+
+    public static int mojWiek() {
+        int wiek = 20;
+        return wiek;
+    }
+}
