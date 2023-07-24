@@ -1,0 +1,26 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Wynik dodawania to: " + dodawanieLiczb());
+        System.out.println("Wynik odejmowania to: " + odejmowanieLiczb());
+        System.out.println("Wynik mnozenia to: " + mnozenieLiczb());
+    }
+
+    public static double dodawanieLiczb() {
+        double a = 2;
+        double b = 3;
+        return a + b;
+    }
+
+    public static double odejmowanieLiczb() {
+        double a = 2;
+        double b = 3;
+        return a - b;
+    }
+
+    public static double mnozenieLiczb() {
+        double a = 2;
+        double b = 3;
+        return a * b;
+    }
+
+}
