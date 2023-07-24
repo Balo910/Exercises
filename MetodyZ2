@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        String imie = mojeImie();
+        System.out.println("Moje imie to " + imie);
+    }
+
+    public static String mojeImie() {
+        String imie = "Balo";
+        return imie;
+    }
+}
