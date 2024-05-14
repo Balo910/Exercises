@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Podaj stopnie w C do zamiany w F");
+        double celsjusz = sc.nextDouble();
+        double fahrenheit = (1.8 * celsjusz) + 32;
+        System.out.println(celsjusz + " C to: " + fahrenheit + " F");
+    }
+}
