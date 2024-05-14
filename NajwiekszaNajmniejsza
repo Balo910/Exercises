@@ -1,0 +1,32 @@
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Podaj liczbe calkowita [1/3]");
+        int liczba1 = sc.nextInt();
+        System.out.println("Podaj liczbe calkowita [2/3]");
+        int liczba2 = sc.nextInt();
+        System.out.println("Podaj liczbe calkowita [3/3]");
+        int liczba3 = sc.nextInt();
+        
+        int najwieksza = liczba1;
+        if (liczba2 > najwieksza) {
+            najwieksza = liczba2;
+        }
+        
+        if (liczba3 > najwieksza) {
+            najwieksza = liczba3;
+        }
+        
+        int najmniejsza = liczba1;
+        if (liczba2 < najmniejsza) {
+            najmniejsza = liczba2;
+        }
+        
+        if (liczba3 < najmniejsza) {
+            najmniejsza = liczba3;
+        }
+
+        System.out.println("Najwieksza liczba to: " + najwieksza);
+        System.out.println("Najmniejsza liczba to: " + najmniejsza);
+    }
+}
